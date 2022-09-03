@@ -1,10 +1,164 @@
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 
-<section class="text-gray-400 bg-gray-900 body-font">
-  <div class="container px-5 py-24 mx-auto">
-    <div class="lg:w-2/3 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-      <h1 class="flex-grow sm:pr-16 text-2xl font-medium title-font text-white">Slow-carb next level shoinddgoitch ethical authentic, scenester sriracha forage.</h1>
-      <button class="flex-shrink-0 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg mt-10 sm:mt-0">Button</button>
+<!-- This component uses Swiper JS - https://swiperjs.com/ -->
+
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<div class="px-4 py-3 bg-stone-100">
+  <div class="flex items-center justify-center max-w-3xl mx-auto">
+    <button
+      class="hidden sm:block sm:rounded sm:transition sm:text-gray-700 hover:text-gray-500 swiper-prev-button"
+      aria-label="Previous Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
+
+    <div class="swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">
+            Tired Free Blogs is Ad-Free
+
+            <a class="underline" href="https://dictionary.cambridge.org/dictionary/english/ad-free"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center"> Powered By - Shilp India Online Store
+
+            <a class="underline" href="https://shilpindia.in"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">
+            Domain Provided By - nic.eu.org
+
+            <a class="underline" href="https://nic.eu.org/"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        
+      </ul>
     </div>
+
+    <button
+      class="hidden sm:block sm:rounded sm:transition sm:text-gray-700 hover:text-gray-500 swiper-next-button"
+      aria-label="Next Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
   </div>
-</section>
+</div>
+
+<script>
+  new Swiper('.swiper', {
+    effect: 'fade',
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+    fadeEffect: {
+      crossFade: true,
+    },
+    navigation: {
+      prevEl: '.swiper-prev-button',
+      nextEl: '.swiper-next-button',
+    },
+  })
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<head>
+
+
+  
+<header class="text-gray-400 bg-gray-900 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+     
+      <span href="tiredfreeblogs.eu.org" class="ml-3 text-xl">TiredFreeBlogs.eu.org</span> 
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+      <a href="index.html" class="mr-5 hover:text-white">Home</a>
+      <a href="blogs.html" class="mr-5 hover:text-white">Blogs</a>
+      <a href="about.html" class="mr-5 hover:text-white">About</a>
+      <a href="contact.html" class="mr-5 hover:text-white">Contact</a>
+      <a href="Search.html" class="mr-5 hover:text-white">Search</a>
+      <a href="category.html" class="mr-5 hover:text-white">Categories</a>
+      
+      
+    </nav>
+<a href="https://forms.gle/ijqSLfao7ypnhDRq8" ><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Create Your Own Blog
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button> </a>
+
+
+
+
+
+    
+  </div>
+</header>
+</head>
+
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400|Montserrat:700' rel='stylesheet' type='text/css'>
+  <style>
+    @import url(//cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css);
+    @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+  </style>
+  <link rel="stylesheet" href="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/default_thank_you.css">
+  <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/jquery-1.9.1.min.js"></script>
+  <script src="https://2-22-4-dot-lead-pages.appspot.com/static/lp918/min/html5shiv.js"></script>
+</head>
+<body>
+  <header class="site-header" id="header">
+    <h1 class="site-header__title" data-lead-id="site-header-title">THANK YOU!</h1>
+  </header>
+
+  <div class="main-content">
+    <i class="fa fa-check main-content__checkmark" id="checkmark"></i>
+    <p class="main-content__body" data-lead-id="main-content-body">Thanks for filling that out. We will contact you after some time. Every feedback is appreciated</p>
+  </div>
+
+  <footer class="site-footer" id="footer">
+    <p class="site-footer__fineprint" id="fineprint">Tired Free Blogs ©2022 | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
