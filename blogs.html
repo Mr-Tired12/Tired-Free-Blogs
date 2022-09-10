@@ -1,7 +1,19 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
 
+<head>
+  <script>"use strict";
 
+!function() {
+    var t = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjYzMTE5MjdlYmEzNDE2NzFhYThiMmYzYiIsInRva2VuVHlwZSI6InB1YmxpYyIsImlhdCI6MTY2MjA5NjAzOSwiZXhwIjoxNDI3NjQ5NjAzOX0.PKpbHLI9OjrxYVYba4XihEAXtBqHJJnpF0CHTSMPzXo";
+    function e() {
+        var e = document.createElement("script"), a = navigator.language || navigator.userLanguage;
+        e.type = "text/javascript", e.async = !0, e.src = "https://api.searchbar.org/v1/widget/" + t + "/" + a;
+        var n = document.getElementsByTagName("script")[0];
+        n.parentNode.insertBefore(e, n);
+    }
+    "complete" === document.readyState ? e() : window.attachEvent ? window.attachEvent("onload", e) : window.addEventListener("load", e, !1);
+}();</script>
 
 <header class="text-gray-400 bg-gray-900 body-font">
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -24,7 +36,7 @@
     </button> </a>
   </div>
 </header>
-
+</head>
 
 
 
