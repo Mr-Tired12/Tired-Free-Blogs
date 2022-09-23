@@ -1,29 +1,155 @@
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title> Contact </title>
+<!-- This component uses Swiper JS - https://swiperjs.com/ -->
 
+<link rel="stylesheet" href="fonts.css" />
 
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+<div class="px-4 py-3 bg-stone-100">
+  <div class="flex items-center justify-center max-w-3xl mx-auto">
+    <button
+      class="hidden sm:block sm:rounded sm:transition sm:text-gray-700 hover:text-gray-500 swiper-prev-button"
+      aria-label="Previous Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
 
+    <div class="swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">
+            Tired Free Blogs is Ad-Free
+
+            <a class="underline" href="https://dictionary.cambridge.org/dictionary/english/ad-free"> Learn More &rarr; </a>
+          </p>
+        </li>
+ <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">Optimized For Firefox Reader View
+
+            <a class="underline" href="https://support.mozilla.org/en-US/kb/firefox-reader-view-clutter-free-web-pages"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center"> Listen To Songs While Reading
+
+            <a class="underline" href="https://tiredfreeblogs.eu.org/blogs">Learn More &rarr; </a>
+          </p>
+        </li>
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center"> Powered By - Shilp India Online Store
+
+            <a class="underline" href="https://shilpindia.in"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">
+            Domain Provided By - nic.eu.org
+
+            <a class="underline" href="https://nic.eu.org/"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <button
+      class="hidden sm:block sm:rounded sm:transition sm:text-gray-700 hover:text-gray-500 swiper-next-button"
+      aria-label="Next Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  new Swiper('.swiper', {
+    effect: 'fade',
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+    fadeEffect: {
+      crossFade: true,
+    },
+    navigation: {
+      prevEl: '.swiper-prev-button',
+      nextEl: '.swiper-next-button',
+    },
+  })
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<head>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+  
 <header class="text-gray-400 bg-gray-900 body-font">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+   <h3> <a href="https://tiredfreeblogs.eu.org" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
      
-      <span class="ml-3 text-xl">TiredFreeBlogs</span>
-    </a>
+      <span href="tiredfreeblogs.eu.org" class="ml-3 text-xl">TiredFreeBlogs.eu.org</span> 
+    </a> </h3>
     <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
-      <a href="index.html" class="mr-5 hover:text-white">Home</a>
-      <a href="blogs.html" class="mr-5 hover:text-white">Blogs</a>
-      <a href="about.html" class="mr-5 hover:text-white">About</a>
-      <a href="contact.html" class="mr-5 hover:text-white">Contact</a>
-      <a href="signup-user.php" class="mr-5 hover:text-white">Sign Up</a>
-      <a class="mr-5 hover:text-white">Login</a>
+      <p><a href="index.html" class="mr-5 hover:text-white">Home</a></p>
+    <p>  <a href="blogs.html" class="mr-5 hover:text-white">Blogs</a> </p>
+     <p> <a href="about.html" class="mr-5 hover:text-white">About</a></p>
+    <p>  <a href="contact.html" class="mr-5 hover:text-white">Contact</a> </p><img src="https://img.icons8.com/color/20/000000/search--v1.png"/>
+     <p> <a href="search.html" class="mr-5 hover:text-white">Search</a> </p>
+    <p>  <a href="category.html" class="mr-5 hover:text-white">Categories</a> </p>
+     <audio src="audio/Tokyo Walker.mp3" controls>
+Error: your web browser does not support this audio player.
+</audio> 
       
     </nav>
-<a href="https://forms.gle/ijqSLfao7ypnhDRq8" ><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Create Your Own Blog
+<p><a href="https://forms.gle/ijqSLfao7ypnhDRq8" ><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Create Your Own Blog
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
-    </button> </a>
-
+    </button> </a><p>
 
 
 
@@ -31,13 +157,7 @@
     
   </div>
 </header>
-
-
-
-
-
-
-
+</head>
 
 
 <section class="text-gray-400 bg-gray-900 body-font relative">
@@ -52,29 +172,29 @@
       <div class="flex flex-wrap -m-2">
         <div class="p-2 w-1/2">
           <div class="relative">
-            <label for="name" class="leading-7 text-sm text-gray-400">Name</label>
-            <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+            <p><label for="name" class="leading-7 text-sm text-gray-400">Name</label></p>
+          <p>  <input type="text" id="name" name="name" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></p>
           </div>
         </div>
         <div class="p-2 w-1/2">
           <div class="relative">
-            <label for="email" class="leading-7 text-sm text-gray-400">Email</label>
-            <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+           <p> <label for="email" class="leading-7 text-sm text-gray-400">Email</label></p>
+          <p>  <input type="email" id="email" name="email" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"></p>
           </div>
         </div>
         <div class="p-2 w-full">
           <div class="relative">
-             <label for="message" class="leading-7 text-sm text-gray-400">Message</label>
-            <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            <p> <label for="message" class="leading-7 text-sm text-gray-400">Message</label></p>
+          <p>  <textarea id="message" name="message" class="w-full bg-gray-800 bg-opacity-40 rounded border border-gray-700 focus:border-yellow-500 focus:bg-gray-900 focus:ring-2 focus:ring-yellow-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea></p>
           </div>
         </div>
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 <input type="hidden" name="redirect" value="https://tiredfreeblogs.eu.org/thankyou.html">
         <div class="p-2 w-full">
-          <button class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">Send</button>
+         <p> <button class="flex mx-auto text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg">Send</button> </p>
         </div>
         <div class="p-2 w-full pt-8 mt-8 border-t border-gray-800 text-center">
-          <a class="text-yellow-400">mrtired@email.com</a>
+         <p> <a class="text-yellow-400">mrtired@email.com</a></p>
           <p class="leading-normal my-5">If this form doesn't work for you then  
             <br> you may email him directly
           </p>

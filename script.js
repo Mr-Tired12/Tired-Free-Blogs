@@ -1,8 +1,8 @@
 // JavaScript code
-function search_animal() {
+function search_blog() {
 	let input = document.getElementById('searchbar').value
 	input=input.toLowerCase();
-	let x = document.getElementsByClassName('animals');
+	let x = document.getElementsByClassName('blogs');
 	
 	for (i = 0; i < x.length; i++) {
 		if (!x[i].innerHTML.toLowerCase().includes(input)) {
