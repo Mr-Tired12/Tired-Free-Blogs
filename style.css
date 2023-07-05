@@ -13,11 +13,11 @@ h1{
 #searchbar{
 	margin-left: 15%;
 	padding:15px;
-	border-radius: 10px;
+	border-radius: 80px;
 }
 
 input[type=text] {
-	width: 70%;
+	width: 80%;
 	-webkit-transition: width 0.15s ease-in-out;
 	transition: width 0.15s ease-in-out;
 }
@@ -25,15 +25,15 @@ input[type=text] {
 /* When the input field gets focus,
 		change its width to 100% */
 input[type=text]:focus {
-	width: 70%;
+	width: 80%;
 }
 
 #list{
 	font-size: 1.5em;
-	margin-left: 90px;
+	margin-left: 160px;
 }
 
-.animals{
+.blogs{
 display: list-item;	
 }
  

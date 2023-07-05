@@ -1,0 +1,77 @@
+<!--
+  This component uses @tailwindcss/aspect-ratio
+
+  yarn add @tailwindcss/aspect-ratio
+  npm install @tailwindcss/aspect-ratio
+
+  plugins: [require('@tailwindcss/aspect-ratio')]
+-->
+<script src="https://cdn.tailwindcss.com"></script>
+
+
+
+<header class="text-gray-400 bg-gray-900 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+     
+      <span href="tiredfreeblogs.eu.org" class="ml-3 text-xl">TiredFreeBlogs.eu.org</span> 
+    </a>
+    <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
+      <a href="index.html" class="mr-5 hover:text-white">Home</a>
+      <a href="blogs.html" class="mr-5 hover:text-white">Blogs</a>
+      <a href="about.html" class="mr-5 hover:text-white">About</a>
+      <a href="contact.html" class="mr-5 hover:text-white">Contact</a>
+      
+      <a href="category.html" class="mr-5 hover:text-white">Categories</a>
+      
+      
+    </nav>
+<a href="https://forms.gle/ijqSLfao7ypnhDRq8" ><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Create Your Own Blog
+      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+        <path d="M5 12h14M12 5l7 7-7 7"></path>
+      </svg>
+    </button> </a>
+
+
+
+
+
+    
+  </div>
+</header>
+<div class="max-w-5xl px-4 py-8 mx-auto">
+  <section class="p-8 bg-gray-100 rounded-lg">
+    <div class="grid grid-cols-1 gap-12 sm:grid-cols-3 sm:items-center">
+      <div class="relative">
+        <div class="aspect-w-1 aspect-h-1">
+          <img
+            src="https://www.hyperui.dev/photos/man-5.jpeg"
+            alt=""
+            class="object-cover rounded-lg"
+          />
+        </div>
+
+        <div
+          class="absolute inline-flex px-4 py-2 bg-white rounded-lg shadow-xl -bottom-4 -right-4"
+        >
+          <span class="inline-block w-12 h-10 bg-gray-100 rounded-lg"></span>
+        </div>
+      </div>
+
+      <blockquote class="sm:col-span-2">
+        <p class="text-xl font-medium sm:text-2xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+          perspiciatis cumque neque ut nobis excepturi, quasi iure quisquam
+          autem alias.
+        </p>
+
+        <cite class="inline-flex items-center mt-8 not-italic">
+          <span class="hidden w-6 h-px bg-gray-400 sm:inline-block"></span>
+          <p class="text-sm text-gray-500 uppercase sm:ml-3">
+            <strong>Simon Cooper</strong>, Inbetweener Co.
+          </p>
+        </cite>
+      </blockquote>
+    </div>
+  </section>
+</div>

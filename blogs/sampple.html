@@ -1,28 +1,156 @@
+
+    
+
+
+
+
+
+
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
 <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title> Tired Free Blogs </title>
+<!-- This component uses Swiper JS - https://swiperjs.com/ -->
 
+<link rel="stylesheet" href="fonts.css" />
 
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+<div class="px-4 py-3 bg-stone-100">
+  <div class="flex items-center justify-center max-w-3xl mx-auto">
+    <button
+      class="hidden sm:block sm:rounded sm:transition sm:text-gray-700 hover:text-gray-500 swiper-prev-button"
+      aria-label="Previous Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
 
+    <div class="swiper">
+      <ul class="swiper-wrapper">
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">
+            Tired Free Blogs is Ad-Free
+
+            
+          </p>
+        </li>
+ <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">Optimized For Firefox Reader View
+
+            
+          </p>
+        </li>
+
+        
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center"> Powered By - Shilp India
+
+            <a class="underline" href="https://shilpindia.in"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        <li class="swiper-slide">
+          <p class="text-sm font-medium text-center">
+            Domain Provided By - nic.eu.org
+
+            <a class="underline" href="https://nic.eu.org/"> Learn More &rarr; </a>
+          </p>
+        </li>
+
+        
+      </ul>
+    </div>
+
+    <button
+      class="hidden sm:block sm:rounded sm:transition sm:text-gray-700 hover:text-gray-500 swiper-next-button"
+      aria-label="Next Slide"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-5 h-5"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+
+<script>
+  new Swiper('.swiper', {
+    effect: 'fade',
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+    fadeEffect: {
+      crossFade: true,
+    },
+    navigation: {
+      prevEl: '.swiper-prev-button',
+      nextEl: '.swiper-next-button',
+    },
+  })
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<head>
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon.ico">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
+  
 <header class="text-gray-400 bg-gray-900 body-font">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
   <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+   <h3> <a href="https://tiredfreeblogs.eu.org" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
      
-      <span class="ml-3 text-xl">TiredFreeBlogs</span>
-    </a>
+      <span href="tiredfreeblogs.eu.org" class="ml-3 text-xl">TiredFreeBlogs.eu.org</span> 
+    </a> </h3>
     <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700 flex flex-wrap items-center text-base justify-center">
-      <a href="https://tiredfreeblogs.eu.org" class="mr-5 hover:text-white">Home</a>
-      <a href="https://tiredfreeblogs.eu.org/blogs.html" class="mr-5 hover:text-white">Blogs</a>
-      <a class="mr-5 hover:text-white">About</a>
-      <a class="mr-5 hover:text-white">Contact</a>
-
+      <p><a href="index.html" class="mr-5 hover:text-white">Home</a></p>
+    <p>  <a href="blogs.html" class="mr-5 hover:text-white">Blogs</a> </p>
+     <p> <a href="about.html" class="mr-5 hover:text-white">About</a></p>
+    <p>  <a href="contact.html" class="mr-5 hover:text-white">Contact</a> </p><img src="https://img.icons8.com/color/20/000000/search--v1.png"/>
+     <p> <a href="search.html" class="mr-5 hover:text-white">Search</a> </p>
+    <p>  <a href="category.html" class="mr-5 hover:text-white">Categories</a> </p>
+      
       
     </nav>
-<a href="https://forms.gle/ijqSLfao7ypnhDRq8" ><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Create Your Own Blog
+<p><a href="uploadarticles.html" ><button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Create Your Own Blog
       <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
         <path d="M5 12h14M12 5l7 7-7 7"></path>
       </svg>
-    </button> </a>
-
+    </button> </a><p>
 
 
 
@@ -30,29 +158,44 @@
     
   </div>
 </header>
-
-
+</head>
 
 
 
 <section class="text-gray-400 bg-gray-900 body-font">
   <div class="container px-5 py-24 mx-auto flex flex-wrap">
-    <h2 class="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5">How Social Media Is Killing Our Youth ?</h2>
-    <div class="md:w-3/5 md:pl-6">
-      <p class="leading-relaxed text-base">According to me, Social Media is killing our youth blatantly and the way our youth is getting influenced by random people on the Internet makes me think, “How Will Our Generation Survive In Future ?”. Body Shaming, Racism, Narcissism, Fake Feminism, Obsession, etc. is taking over our youth. Kids aren’t kids anymore, They try to act older than there age. Using strong language is now a trend in these “KIDS” and the one who doesn’t take part in this so called “TREND” is considered a inferior and often gets bullied, While the one’s who use strong language frequently are considered to be “COOL” in this new Gen Z era. Disrespecting there teachers is a “TREND”. Watching adult videos is now a “TREND”. Not studying is “TREND”. Disrespecting elders is a “TREND”. Getting obsessed to a content creator, social media, kpop, etc. is a “TREND”. But still some part of our youth is actually trying to make this human society better. Well here are some stats that show how our youth is getting slowly eaten away by this Social Media “VIRUS”.</p>
+    <h3 class="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5">Organic chemistry, my favorite... </h3> <br>
+
+  
+
+  <section class="text-gray-400 bg-gray-900 body-font">
+  <div>
+  <a class="inline-flex items-center">
+          <img alt="blog" src="https://t4.ftcdn.net/jpg/00/64/67/63/360_F_64676383_LdbmhiNM6Ypzb3FM4PPuFP9rHe7ri8Ju.jpg" class="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center">
+          <span class="flex-grow flex flex-col pl-4">
+         <p>   <span class="title-font font-medium text-white">Aman Goel</span> </p>
+          <p>  <span class="text-gray-500 text-xs tracking-widest mt-0.5">AIR 33, JEE Advanced 2013</span> </p>
+          </span>
+        </a>
+      </div> </section>
+
+<section class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+ 
+
+  <h1 class="leading-relaxed text-base">Organic chemistry for me was the most fascinating part of chemistry - most logical and of course, most scoring. If you know that "a nucleophile attacks an electrophile", your half portion of organic chemistry is done (believe me). Entire organic chemistry is dedicated to the above statement.
+There are some "Named Reactions" which are very important. I will name some of them - "Reimer Tiemenn" reaction, "Cannizarro" reaction, "Friedel - Craft's" reactions and many others. They all form the backbone of organic chemistry and must be thoroughly covered.</h1>
       <br> 
 
-Social media is destroying our youth. The internet was meant to connect people but now it's become a place where we can bully others anonymously. The most common form of bullying is through comments on someone's weight or appearance on Facebook or Instagram. These kinds of comments can be really harmful because they're from people who are supposed to be your friends or even family members.
+<p>Another important aspect of Organic Chemistry is GOC - General Organic Chemistry. In the recent years, a lot of questions have been asked on - resonance stability, carbocation stability, type of reactions, hyperconjugation and many more topics from this chapter. So it is advisable to cover them well. </p>
+<p>For Organic Chemistry, I would suggest a book named "LG Wade" by "Pearson Education". Though the book is not designed for JEE aspirants, it definitely serves the purpose. Do cover the book thoroughly. Practice a lot of questions in order to have a command in Organic Chemistry. </p>
 
-
-We all know how hard it is to grow up in today's world as it is, without having people make fun of you online too. I think we should all take a step back and think about how our words might affect other people before we post them online because what happens on the internet stays on the internet forever and it's hard to forget something mean someone said about you behind your back or even right to your face!
- It's a place where people can post the best parts of their lives and make themselves look like they have it all together, when in reality they might be going through something difficult. It's easy to compare yourself to other people on social media and think that they have more than you or are more than you. It's not always true, but it's hard not to see those kinds of posts without feeling some kind of way about them. And when you're feeling down about yourself or your life then comparing yourself becomes even easier because you're looking for things that make you feel bad about yourself so that you can avoid them too (like comparing yourself to others).
-
-
-It's also really easy on social media to compare yourself based on things like body image or wealth or education level because those things are often showcased by other people who look like they have it all together - when in reality those people probably don't have it all together either! They're just putting up a front online so that people will like them or follow them back. People want to show off their lives on social media because it makes them feel popular and cool, but it doesn't mean anything if no one is actually your friend IRL.
-
-
-
+<p>
+My approach towards learning organic chemistry was "mechanistic". I focused a lot on the reaction mechanisms. In 15 minutes, you can solve entire JEE organic chemistry (if you know the solution). Rather than mugging up organic chemistry, try to understand the mechanism. In JEE, they ask you the entire mechanism of the reaction through Paragraph type questions.
+</p></section>
+<section><br></section>
+<h3 class="sm:text-3xl text-2xl text-white font-medium title-font mb-2 md:w-2/5">Book Recommendations : LG Wade</h3>
+</a></h3>
       <div class="flex md:mt-4 mt-6">
         
         </a>
